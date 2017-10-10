@@ -12,4 +12,4 @@ let es6 = {};
     es6.Per = Per;
 })()
 let stu = new es6.Per();
-stu.say()
+stu.say();
