@@ -1,9 +1,9 @@
-var es6 = {};
+let es6 = {};
 ;(function(){
-    var one = 'one';
+    let one = 'one';
     class Per{
         constructor(){
-            this.name = 'tomxx';
+            this.name = 'tom';
         }
         say(){
             console.log(this.name);
@@ -11,4 +11,5 @@ var es6 = {};
     }
     es6.Per = Per;
 })()
-var stu = new es6.Per();
+let stu = new es6.Per();
+stu.say()
